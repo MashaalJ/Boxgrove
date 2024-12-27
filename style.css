@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5efe8;
+    color: #333;
+}
+
+header {
+    background-color: #95ac82;
+    color: #f5efe8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#logo {
+    margin-right: auto; 
+}
+
+#text-container {
+    flex: 1;
+    text-align: center;
+}
+
+#logo img {
+    max-height: 60px;
+}
+#container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #95ac82;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#event {
+    background-color: #95ac82;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+#event:hover {
+    transform: scale(1.02);
+}
+
+#event img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+}
+
+#event-details {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-left: 10px;
+}
+
+#event-details h2 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    color: #f5efe8;
+}
+
+#event-details p {
+    margin: 10px 0;
+    color: #f5efe8;
+    
+}
+
+#contact {
+    background-color: #95ac82;
+    color: #f5efe8;
+    text-align: center;
+    padding: 50px 20px;
+    border-top: 5px solid #fff;
+}
+
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover{
+    color: #f5efe8;
+}
+
+footer {
+    background-color: #f5efe8;
+    color: #95ac82;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
